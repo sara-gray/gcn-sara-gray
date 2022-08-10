@@ -10,6 +10,7 @@ This code shows some suggested improvements to the navigation for the website [G
 
 ### Please note - I have only implemented this for an iPhone6, dimensions 375 x 667. Use the chrome-devtools to set the viewport size accordingly
 
+![screenshot gcn](https://user-images.githubusercontent.com/38605747/183883165-d54e13a9-b279-4c19-b0e5-c2b8a249f5ab.jpg)
 
 ---
 
@@ -22,7 +23,7 @@ To download and run from the public GitHub repo:
 4. Type `npm install`
 5. Type `npm run dev` to launch on localhost:3000
 
-or view a demo version [here]()
+or view a demo version [here](https://gcn-sara-gray.vercel.app/)
 
 ---
 
