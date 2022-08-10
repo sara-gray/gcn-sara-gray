@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import logo from '../../public/gcnAssets-master/GCNLogoTxtRed.svg'
-
 const Video = ({ video }) => {
   const { _id, title, publishDate } = video
 

@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.nav-li {
+    display: flex;
+    width: 100%;
+    line-height: 4rem; 
+    list-style-type: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    padding: 0.5rem; 
+    opacity:70%;
+    font-size:2rem;
+  }
+
+.nav-link {
+    height: 100%;
+    width:100%;
+    padding-top: 0.5rem; 
+    padding-bottom: 0.5rem;
+  }
