@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 const MenuOverlay = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -7,7 +8,7 @@ const MenuOverlay = ({ menuOpen, setMenuOpen }) => {
     >
       <ul className='flex flex-col items-start'>
         <li className='nav-li'>
-          <a
+          <Link
             href='https://www.gcnevents.co/'
             className='nav-link'
             onClick={() => {
@@ -15,10 +16,10 @@ const MenuOverlay = ({ menuOpen, setMenuOpen }) => {
             }}
           >
             Events
-          </a>
+          </Link>
         </li>
         <li className='nav-li'>
-          <a
+          <Link
             href='https://club.globalcyclingnetwork.com/'
             className='nav-link'
             onClick={() => {
@@ -26,10 +27,10 @@ const MenuOverlay = ({ menuOpen, setMenuOpen }) => {
             }}
           >
             Club
-          </a>
+          </Link>
         </li>
         <li className='nav-li'>
-          <a
+          <Link
             href='https://shop.globalcyclingnetwork.com/'
             className='nav-link'
             onClick={() => {
@@ -37,10 +38,10 @@ const MenuOverlay = ({ menuOpen, setMenuOpen }) => {
             }}
           >
             Shop
-          </a>
+          </Link>
         </li>
         <li className='nav-li'>
-          <a
+          <Link
             href='/'
             className='nav-link'
             onClick={() => {
@@ -48,7 +49,7 @@ const MenuOverlay = ({ menuOpen, setMenuOpen }) => {
             }}
           >
             More...
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
