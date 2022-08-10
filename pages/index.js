@@ -8,7 +8,7 @@ import MenuOverlay from '../components/menu/MenuOverlay'
 export default function Home({ videos }) {
   const [menuOpen, setMenuOpen] = useState(false)
 
-  return (<main className='bg-stone-100 text-stone-800 w-screen'>
+  return (<main className='absolute bg-stone-100 text-stone-800'>
     <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
     <MenuOverlay menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
     <Videos videos={videos} />

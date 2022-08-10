@@ -8,7 +8,8 @@ This code shows some suggested improvements to the navigation for the website [G
 - The design reduces the top navigation to make it simpler and easy to interact with.
 - Social links are now tucked away at the bottom of the screen.
 
-### Please note - I have only implemented this for an iPhone6, dimensions 375 x 667
+### Please note - I have only implemented this for an iPhone6, dimensions 375 x 667. Use the chrome-devtools to set the viewport size accordingly
+
 
 ---
 

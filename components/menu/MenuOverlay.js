@@ -9,46 +9,30 @@ const MenuOverlay = ({ menuOpen, setMenuOpen }) => {
       <ul className='flex flex-col items-start'>
         <li className='nav-li'>
           <Link
-            href='https://www.gcnevents.co/'
-            className='nav-link'
-            onClick={() => {
-              setMenuOpen(false)
-            }}
-          >
-            Events
+            href='https://www.gcnevents.co/' target='_blank'
+            className='nav-link'>
+            <div onClick={() => setMenuOpen(false)}>Events</div>
           </Link>
         </li>
         <li className='nav-li'>
           <Link
-            href='https://club.globalcyclingnetwork.com/'
-            className='nav-link'
-            onClick={() => {
-              setMenuOpen(false)
-            }}
-          >
-            Club
+            href='https://club.globalcyclingnetwork.com/' target='_blank'
+            className='nav-link'>
+            <div onClick={() => setMenuOpen(false)}>Club</div>
           </Link>
         </li>
         <li className='nav-li'>
           <Link
-            href='https://shop.globalcyclingnetwork.com/'
-            className='nav-link'
-            onClick={() => {
-              setMenuOpen(false)
-            }}
-          >
-            Shop
+            href='https://shop.globalcyclingnetwork.com/' target='_blank'
+            className='nav-link'>
+            <div onClick={() => setMenuOpen(false)}>Shop</div>
           </Link>
         </li>
         <li className='nav-li'>
           <Link
             href='/'
-            className='nav-link'
-            onClick={() => {
-              setMenuOpen(false)
-            }}
-          >
-            More...
+            className='nav-link'>
+            <div onClick={() => setMenuOpen(false)}>More...</div>
           </Link>
         </li>
       </ul>

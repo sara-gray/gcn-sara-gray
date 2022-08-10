@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Social = () => {
   return (
-    <nav className='fixed bottom-0 h-10 w-screen bg-transparent'>
+    <nav className='fixed max-h-[667px] bottom-0 h-10 w-screen bg-transparent'>
       <div className='
       w-2/3 h-full pt-1 px-4 mx-auto
       flex flex-row justify-between items-center
